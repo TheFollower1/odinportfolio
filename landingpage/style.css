@@ -7,8 +7,8 @@
 body {
   display: flex;
   font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  border: solid 5px;
   flex-direction: column;
+  margin: 0;
 }
 
 /* container 1 syntax */
@@ -41,7 +41,7 @@ body {
 
 .parent2container1 {
   display: flex;
-  margin: 60px 200px 20px;
+  margin: 60px 200px 60px;
 }
 
 .heromaintext {
@@ -94,7 +94,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 20px;
+  gap: 100px;
   margin-bottom: 80px;
 }
 
