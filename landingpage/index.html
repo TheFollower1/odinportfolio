@@ -3,50 +3,50 @@
   <head>
     <meta charset="utf-8">
     <title>Abby's Best</title>
-    <link rel="stylesheets" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
   </head>
 
   <body>
     <!-- this is container 1, with three parent items. -->
-    <hero>
+    <hero class="container1">
       <!-- parent item 1 of container 1. -->
-      <div>
-        <!-- these are 4 child items of parent 1 -->
-        <ul>
-          <li>
+      <ul class="parent1container1">
+          <!-- these are 4 child items of parent 1 -->
+          <li class="headerlogo">
             Header Logo
           </li>
-          <li> 
-            header line one
+          <li class="secondarytext"> 
+            <a>header link one</a>
           </li>
-          <li> 
-            header link two
+          <li class="secondarytext"> 
+            <a>header link two</a>
           </li>
-          <li>
-            header link three
+          <li class="secondarytext">
+            <a>header link three</a>
           </li>
-        </ul>
+      </ul>
+        <!-- parent item 2 of container 1. -->
+      <div class="parent2container1">
+        <!-- these are 2 child items of parent 2 -->
+        <div class="child1p2c1">
+          <p class="heromaintext">
+            This wesbite is awesome.
+            <br><span class="secondarytext">This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast.
+            </span>  
+          </p>
+          <button class="buttonfont">
+            Sign up 
+          </button>
+        </div>
+        <div class="child2p2c1">
+          <img src="./img/photo-1738566495610-8385ed595473.avif">
+        </div>
       </div>
-      <!-- parent item 2 of container 1. -->
-      <div>
-        <!-- these are 3 child items of parent 2 -->
-        <h3>
-          This wesbite is awesome.
-        </h3>
-        <p>
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast.  
-        </p>
-        <button>Sign up/button>
-      
-      </div>
-      <!-- parent item 3 of container 1 -->
-      <div> 
-        <img>
-      </div>  
+      <!-- parent item 3 of container 1 --> 
     </hero>
     <!-- This is container 2 with 2 parent items -->
-    <div>
+    <div class="container2">
       <!-- parent item 1  of container 2 -->
       <h1>
         Some random information.
@@ -109,6 +109,9 @@
       </div>
     </div>
     </div>
+    <footer>
+      @
+    </footer>
 
 
 
