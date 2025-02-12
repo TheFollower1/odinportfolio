@@ -23,23 +23,25 @@ body {
   list-style-type: none;
   align-items: baseline;
   padding: 0px;
-  margin: 8px 60px;
+  margin: 8px 200px;
 }
 
 .headerlogo {
   font-size: 24px;
   color: #f9faf8;
   margin-right: auto;
+  margin-left: 120px;
 }
 
 .secondarytext {
   font-size: 18px;
   color: #e5e7eb;
+  margin-right: 45px;
 }
 
 .parent2container1 {
   display: flex;
-  margin: 60px 60px 8px;
+  margin: 60px 200px 20px;
 }
 
 .heromaintext {
