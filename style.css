@@ -77,6 +77,10 @@ body {
   font-size: medium;
 }
 
+.buttonfont:hover {
+  cursor: pointer;
+}
+
 /* container 2 syntax */
 
 .container2 {
